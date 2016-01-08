@@ -1,5 +1,7 @@
 # pilot-teacher-meeting-code
-Processing demonstration code for the Computer Science 20/30 pilot teacher meeting held on Jan 12, 2016.
+[Processing](https://processing.org) demonstration code for the Computer Science 20/30 pilot teacher meeting held on Jan 12, 2016.
+
+[Processing](https://processing.org) is required to execute any of the code found in this archive.
 
 ## Folders included
 1. Filtering Images by Iterating Through the Pixel Array -- to be used during 11:00am programming block. 
