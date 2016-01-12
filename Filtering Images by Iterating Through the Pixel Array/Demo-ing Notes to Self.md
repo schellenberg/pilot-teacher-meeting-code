@@ -19,7 +19,7 @@
 
 5. First Image Filter
 	- show theImage.loadPixels();
-	- iterate through an array of length theImage.width * theImage * height
+	- iterate through an array of length theImage.width * theImage.height
 	- extract color information for each pixel using redAmount = red(theImage.pixels[i]
 	- apply simple image filter (255 - redAmount to do an inversion thingee)
 	- constrain colors between 0 and 255
@@ -39,5 +39,7 @@
 	- float howBright = brightness(davey.pixels[pixLoc]);
 	- float theThreshold = map(mouseX, 0, width, 0, 255);
 	- if (howBright > theThreshold) {
+		- set high values to black
+		- set low values to white
 		
 8. Make your own filters!
