@@ -160,7 +160,7 @@ boolean messageFits(PImage source, String message) {
   //check if the currently selected message will fit into the currently selected image
   //message is a string of bits, and we'll store one per pixel
   
-  if (message.length() < (source.width * source.height) ) {
+  if (message.length()*8 < (source.width * source.height) ) {
     return true;
   } else {
     return false;
